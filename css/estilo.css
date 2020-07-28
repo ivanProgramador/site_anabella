@@ -1,0 +1,53 @@
+
+body{
+	/*as configuraçoes do background ps aparmetros sao 
+      primeiro a cor, depois a imagem de fundo
+	*/
+	background: #d2d2c1 url("fundo.png");
+	font: 16px Arial, Helvetica, sans-serif;
+}
+
+#principal{
+ /*as configuraçoes da borda sao 
+   primeiro a densidade,depois o estilo,depois a cor
+   border: 1px solid red;
+ */
+	
+ /*definindo uma lagura fixa pra div*/
+    width: 900px;
+}
+#menu{
+	background-color: #c5c5b2;
+	padding: 18px;
+}
+
+#conteudo{
+
+	background:#e8e8d9;
+	padding: 10px;
+}
+a{
+	color: #4b566a;
+	text-decoration: none;
+	font-weight: bold;
+	
+	padding: 5px;
+}
+
+.centralizar{
+
+	text-align: center;
+}
+
+h1{
+	color: #828271;
+	font-size: 1.2em;
+
+}
+p{
+	text-align: justify;
+}
+
+.img-campanha{
+	border: 10px solid #c3c3ae;
+}
